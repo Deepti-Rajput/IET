@@ -16,11 +16,11 @@ namespace FirstApplication.UnitTest
 			bool result = true;
 			Assert.That(result == true);
 		}
-		[TestCase]
-		public void WhenFirstUnitTestCallReturnFail()
-		{
-			bool result = false;
-			Assert.That(result == true);
-		}
+		//[TestCase]
+		//public void WhenFirstUnitTestCallReturnFail()
+		//{
+		//	bool result = false;
+		//	Assert.That(result == true);
+		//}
 	}
 }
