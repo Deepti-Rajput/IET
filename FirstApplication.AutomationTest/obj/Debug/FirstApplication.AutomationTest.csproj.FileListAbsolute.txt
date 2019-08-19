@@ -1,0 +1,6 @@
+D:\IET Fram\FirstApplication\FirstApplication.AutomationTest\bin\Debug\FirstApplication.AutomationTest.dll
+D:\IET Fram\FirstApplication\FirstApplication.AutomationTest\bin\Debug\FirstApplication.AutomationTest.pdb
+D:\IET Fram\FirstApplication\FirstApplication.AutomationTest\obj\Debug\FirstApplication.AutomationTest.csprojAssemblyReference.cache
+D:\IET Fram\FirstApplication\FirstApplication.AutomationTest\obj\Debug\FirstApplication.AutomationTest.csproj.CoreCompileInputs.cache
+D:\IET Fram\FirstApplication\FirstApplication.AutomationTest\obj\Debug\FirstApplication.AutomationTest.dll
+D:\IET Fram\FirstApplication\FirstApplication.AutomationTest\obj\Debug\FirstApplication.AutomationTest.pdb

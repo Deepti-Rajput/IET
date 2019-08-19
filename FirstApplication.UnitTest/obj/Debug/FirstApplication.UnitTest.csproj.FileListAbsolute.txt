@@ -1,0 +1,10 @@
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\bin\Debug\FirstApplication.UnitTest.dll
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\bin\Debug\FirstApplication.UnitTest.pdb
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\bin\Debug\nunit.framework.dll
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\bin\Debug\nunit.framework.pdb
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\bin\Debug\nunit.framework.xml
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\obj\Debug\FirstApplication.UnitTest.csprojAssemblyReference.cache
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\obj\Debug\FirstApplication.UnitTest.csproj.CoreCompileInputs.cache
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\obj\Debug\FirstApplication.UnitTest.csproj.CopyComplete
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\obj\Debug\FirstApplication.UnitTest.dll
+D:\IET Fram\FirstApplication\FirstApplication.UnitTest\obj\Debug\FirstApplication.UnitTest.pdb
