@@ -138,12 +138,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Web.config" />
-    <None Include="Web.Live.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.UAT.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -165,15 +159,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\Home\Index.cshtml" />
-    <None Include="Web.Debug.config">
+    <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Dev.config">
+    </Content>
+    <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
+    </Content>
+    <Content Include="Web.Dev.config" />
+    <Content Include="Web.Live.config" />
+    <Content Include="Web.UAT.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
