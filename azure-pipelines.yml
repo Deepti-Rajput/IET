@@ -24,8 +24,7 @@ steps:
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
-    msbuildArgs: '/p:OutDir=$(Build.ArtifactStagingDirectory) /p:DeployOnBuild=true /p:UseWPP_CopyWebApplication=true /p:PipelineDependsOnBuild=false'
-    platform: '$(buildPlatform)'
+    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:UseWPP_CopyWebApplication=true /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:UseWPP_CopyWebApplication=true /p:PipelineDependsOnBuild=false /p:PackageLocation="$(build.artifactStagingDirectory)"'
     configuration: '$(buildConfiguration)'
 
 - task: VSTest@2
