@@ -155,17 +155,19 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <None Include="Web.Dev.config" />
-    <None Include="Web.Live.config" />
+    <Content Include="Web.Dev.config" />
+    <Content Include="Web.Live.config" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <None Include="Web.UAT.config" />
+    <Content Include="Web.UAT.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
